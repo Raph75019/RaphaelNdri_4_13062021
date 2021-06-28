@@ -6,7 +6,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.keywords{
+    color:#cccccc;
+    font-size:1px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -302,9 +305,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 50px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 70%;
 }
 
 .navbar-brand img[src$=svg] {
@@ -509,7 +513,9 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-
+.form-group{
+    margin-bottom: 15px;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +716,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -741,8 +747,13 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: 270px;
+    width: 100%;
 }
-
+cite,q{
+    font-size: 18px;
+    font-weight: bold;
+}
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -775,12 +786,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    width: 40%;
 }
 
 .btn-atomic-tangerine:hover {
@@ -822,7 +834,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
